@@ -26,6 +26,11 @@
   height: 300px;
 }
 
+.projek {
+  padding-top: 100px;
+  height: 300px;
+}
+
 .tracking-in-expand {
   -webkit-animation: tracking-in-expand 0.7s linear both;
   animation: tracking-in-expand 0.7s linear both;
