@@ -18,13 +18,20 @@
   padding: 10px;
 }
 
-.skils .row {
+#skills {
+  height: 600px;
   padding-top: 50px;
 }
 
-.projek {
-  height: 300px;
+#project {
+  height: 600px;
+  padding-top: 50px;
 }
+
+#project .container {
+  padding-top: 50px;
+}
+
 .tracking-in-expand {
   -webkit-animation: tracking-in-expand 0.7s linear both;
   animation: tracking-in-expand 0.7s linear both;
