@@ -10,27 +10,16 @@
   color: #fff;
 }
 
-.medsos ul li {
-  display: inline-block;
-}
-
-.medsos ul li a {
-  color: #fff;
-  padding: 10px;
-}
-
 #skills {
   height: 600px;
-  padding-top: 50px;
 }
 
 #project {
   height: 600px;
-  padding-top: 50px;
 }
 
-#project .container {
-  padding-top: 50px;
+section {
+  padding-top: 5rem;
 }
 
 .tracking-in-expand {
