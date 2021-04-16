@@ -3,11 +3,18 @@
   color: #fff;
 }
 
+.navbar-nav a:hover {
+  background-color: #fff;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
 .jumbotron {
   background-image: linear-gradient(to right, #bc4e9c, #f80759);
   text-align: center;
   padding-top: 80px;
   color: #fff;
+  font-family: "Zen Dots", cursive;
 }
 
 #skills {
