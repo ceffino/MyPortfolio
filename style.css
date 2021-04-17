@@ -11,14 +11,9 @@
 
 .jumbotron {
   background-image: linear-gradient(to right, #56ab2f, #44a08d);
-
   padding-top: 80px;
   color: #fff;
   font-family: "Zen Dots", cursive;
-}
-
-#skills {
-  height: 600px;
 }
 
 #project {
@@ -26,7 +21,15 @@
 }
 
 section {
-  padding-top: 5rem;
+  padding-top: 6rem;
+}
+
+footer {
+  background-color: #56ab2f;
+  text-align: center;
+  opacity: 0.5;
+  color: #fff;
+  position: relative;
 }
 
 .tracking-in-expand {
