@@ -1,5 +1,5 @@
 .navbar {
-  background-image: linear-gradient(to right, #bc4e9c, #f80759);
+  background-image: linear-gradient(to right, #56ab2f, #44a08d);
   color: #fff;
 }
 
@@ -10,8 +10,8 @@
 }
 
 .jumbotron {
-  background-image: linear-gradient(to right, #bc4e9c, #f80759);
-  text-align: center;
+  background-image: linear-gradient(to right, #56ab2f, #44a08d);
+
   padding-top: 80px;
   color: #fff;
   font-family: "Zen Dots", cursive;
