@@ -16,8 +16,20 @@
   font-family: "Zen Dots", cursive;
 }
 
+.container-fluid {
+  font-family: "Antonio", sans-serif;
+}
+
+#about {
+  background-color: #f5f5f5;
+}
+
 #skills {
   background-color: #f5f5f5;
+}
+
+#skills h3 {
+  text-align: right;
 }
 
 #project {
