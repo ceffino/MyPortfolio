@@ -16,12 +16,16 @@
   font-family: "Zen Dots", cursive;
 }
 
+#skills {
+  background-color: #f5f5f5;
+}
+
 #project {
-  height: 600px;
+  background-color: #f5f5f5;
 }
 
 section {
-  padding-top: 6rem;
+  padding-top: 7rem;
 }
 
 footer {
