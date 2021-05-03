@@ -3,6 +3,12 @@
   color: #fff;
 }
 
+.navbar-brand a {
+  padding: 10px;
+  text-align: center;
+  padding-left: 20px;
+}
+
 .navbar-nav a:hover {
   background-color: #fff;
   border-radius: 20px;
