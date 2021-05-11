@@ -1,7 +1,7 @@
-.navbar {
+/* .navbar {
   background-image: linear-gradient(to right, #56ab2f, #44a08d);
   color: #fff;
-}
+} */
 
 .navbar-brand a {
   padding: 10px;
@@ -9,10 +9,181 @@
   padding-left: 20px;
 }
 
-.navbar-nav a:hover {
+/* .navbar-nav a:hover {
   background-color: #fff;
   border-radius: 20px;
   transition: 0.3s;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Itim", cursive;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ddd;
+  z-index: 1000;
+}
+
+.logo {
+  height: 40px;
+  line-height: 40px;
+  color: #000;
+  font-weight: 500;
+  font-size: 25px;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+#toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: darkgreen;
+  cursor: pointer;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 100%;
+}
+
+#toggle::before {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  background-color: #fff;
+  transform: translateY(-5px);
+}
+
+#toggle::after {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  background-color: #fff;
+  transform: translateY(5px);
+  transition: 0.2s;
+}
+
+#toggle.active::before {
+  transform: translateY(0px) rotate(45deg);
+}
+
+#toggle.active::after {
+  transform: translateY(0px) rotate(-45deg);
+}
+
+#toggle.active {
+  background-color: chartreuse;
+}
+
+#navbar.active {
+  width: 300px;
+}
+#navbar {
+  position: relative;
+  height: 40px;
+  right: 230px;
+  background-color: #ddd;
+  transition: 0.5s;
+  width: 20%;
+  /* overflow: hidden; */
+}
+
+#navbar ul {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar ul li {
+  list-style: none;
+}
+
+#navbar ul li a {
+  color: #000;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 0 15px;
+  transition: 0.3s;
+}
+
+#navbar ul li a:hover {
+  color: #fff;
+  background-color: grey;
+}
+
+/* section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #ddd;
+  font-size: 18vh;
+  font-weight: 700;
+} */
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    position: fixed;
+    bottom: -100%;
+    right: 0;
+    width: 100%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #navbar.active {
+    height: calc(100vh - 40px);
+    bottom: 0;
+    width: 100%;
+  }
+  #navbar ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #toggle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #navbar {
+    display: flex;
+  }
+  #toggle {
+    display: flex;
+  }
 }
 
 .jumbotron {

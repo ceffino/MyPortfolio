@@ -13,14 +13,27 @@
     <title>MyPortfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top p-1">
+    <header id="header">
+      <a href="#" class="logo"><i class="fas fa-adjust"></i></a>
+      <div id="toggle"></div>
+      <div id="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top p-1">
       <div class="container">
         <a class="navbar-brand text-light" href="#"><i class="fas fa-adjust"></i></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul style="font-family: 'Spartan', sans-serif" class="navbar-nav ms-auto">
+          <ul  class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" href="#">Home</a>
             </li>
@@ -44,7 +57,7 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
     <section class="jumbotron">
       <div class="container text-center">
@@ -156,7 +169,22 @@
         <p>&copy; Fino 2021</p>
       </footer>
     </section>
+    <script>
+      const header = document.getElementById("header");
+      const toggle = document.getElementById("toggle");
+      const navbar = document.getElementById("navbar");
+      document.onclick = function (e) {
+        if (e.target.id !== "header" && e.target.id !== "toggle" && e.target.id !== "navbar") {
+          toggle.classList.remove("active");
+          navbar.classList.remove("active");
+        }
+      };
 
+      toggle.onclick = function () {
+        toggle.classList.toggle("active");
+        navbar.classList.toggle("active");
+      };
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </body>
