@@ -25,10 +25,10 @@
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   min-height: 100vh;
   overflow: hidden;
-}
+} */
 
 header {
   position: fixed;
