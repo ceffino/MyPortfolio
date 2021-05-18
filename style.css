@@ -9,6 +9,9 @@
   padding-left: 20px;
 }
 
+.kosong {
+  height: 100px;
+}
 /* .navbar-nav a:hover {
   background-color: #fff;
   border-radius: 20px;
@@ -170,7 +173,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     font-weight: bold;
   }
   #toggle {
