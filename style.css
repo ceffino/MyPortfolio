@@ -1,7 +1,3 @@
-/* .navbar {
-  background-image: linear-gradient(to right, #56ab2f, #44a08d);
-  color: #fff;
-} */
 
 .navbar-brand a {
   padding: 10px;
@@ -12,11 +8,7 @@
 .kosong {
   height: 200px;
 }
-/* .navbar-nav a:hover {
-  background-color: #fff;
-  border-radius: 20px;
-  transition: 0.3s;
-} */
+
 
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 
@@ -27,10 +19,7 @@
   scroll-behavior: smooth;
 }
 
-/* body {
-  min-height: 100vh;
-  overflow: hidden;
-} */
+
 
 header {
   position: fixed;
@@ -142,16 +131,6 @@ header {
   background-color: grey;
 }
 
-/* section {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  color: #ddd;
-  font-size: 18vh;
-  font-weight: 700;
-} */
 
 @media screen and (max-width: 768px) {
   #navbar {
