@@ -3,10 +3,10 @@
   text-align: center;
   padding-left: 20px;
 }
-/* 
+
 .kosong {
-  height: 200px;
-} */
+  height: 350px;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 
@@ -165,7 +165,7 @@ header {
 }
 
 .jumbotron {
-  background-image: linear-gradient(to right, #56ab2f, #44a08d);
+  background-image: linear-gradient(to right, #ec008c, #fc6767);
   padding-top: 80px;
   color: #fff;
   font-family: "Zen Dots", cursive;
